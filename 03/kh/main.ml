@@ -69,8 +69,8 @@ let invert_binary bin =
     match bin with
     "" -> agg
     | x ->
-      let head = String.sub x 0 1 in
-      let tail = String.sub x 1 (String.length x - 1) in
+      let head = List.hd (explode x) in
+      let tail = String.concat "" (List.tl (explode x)) in
       match head with
       "1" -> helper (agg ^ "0") tail
       | "0" -> helper (agg ^ "1") tail
