@@ -1,0 +1,8 @@
+lib: [
+  "/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/b/part2-ecd658a0/install/default/lib/part2/META"
+  "/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/b/part2-ecd658a0/install/default/lib/part2/dune-package"
+  "/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/b/part2-ecd658a0/install/default/lib/part2/opam"
+]
+bin: [
+  "/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/b/part2-ecd658a0/install/default/bin/part2"
+]

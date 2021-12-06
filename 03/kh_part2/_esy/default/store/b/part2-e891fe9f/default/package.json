@@ -1,0 +1,15 @@
+{
+  "name": "part2",
+  "esy": {
+    "build": "dune build -p #{self.name}",
+    "buildDev":
+      "refmterr dune build --promote-install-files --root . --only-package #{self.name}",
+    "buildEnv": { "ODOC_SYNTAX": "re" }
+  },
+  "scripts": { "test": "esy x part2" },
+  "dependencies": {
+    "@opam/dune": "2.9.1",
+    "ocaml": "4.10.x",
+    "refmterr": "^3.3.2"
+  }
+}
