@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/bin"
+exec "/opt/homebrew/Cellar/node/16.11.1/bin/node" -r "/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/pnp.js" "$@"
+              

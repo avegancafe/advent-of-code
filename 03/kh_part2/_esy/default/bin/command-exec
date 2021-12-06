@@ -1,0 +1,102 @@
+#!/bin/bash
+# Command environment
+
+#
+# Built-in
+#
+export ESY__ROOT_PACKAGE_CONFIG_PATH="/Users/kyle/workspace/advent-of-code/03/kh_part2/package.json"
+export USER='kyle'
+export STARSHIP_SHELL='fish'
+export PATH='/opt/homebrew/lib/node_modules/esy/3/i/esy-7d7e29d3/bin:/Users/kyle/.nodenv/bin:/Users/kyle/.nodenv/shims:/Users/kyle/.opam/default/bin:/Users/kyle/go/bin:/Users/kyle/.config/yarn/global/node_modules/.bin:/usr/local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/kyle/.nix-profile/bin:/opt/homebrew/opt/fzf/bin:/Users/kyle/.fig/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:set:-gx:PATH:/Users/kyle/.local/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/kyle/.nix-profile/bin:/opt/homebrew/opt/fzf/bin:/Users/kyle/.fig/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/MacGPG2/bin:/usr/local/opt/postgresql@12/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+export NIX_PROFILES='/nix/var/nix/profiles/default /Users/kyle/.nix-profile'
+export HOMEBREW_CELLAR='/opt/homebrew/Cellar'
+export OCAMLPATH='/opt/homebrew/lib/node_modules/esy/3/i/esy-7d7e29d3/lib:'
+export LC_TERMINAL='iTerm2'
+export XPC_FLAGS='0x0'
+export CAML_LD_LIBRARY_PATH='/opt/homebrew/lib/node_modules/esy/3/i/esy-7d7e29d3/stublibs:/opt/homebrew/lib/node_modules/esy/3/i/esy-7d7e29d3/lib/stublibs:/Users/kyle/.opam/default/lib/stublibs:/Users/kyle/.opam/default/lib/ocaml/stublibs:/Users/kyle/.opam/default/lib/ocaml'
+export LOGNAME='kyle'
+export SHLVL='1'
+export MAN_PATH='/opt/homebrew/lib/node_modules/esy/3/i/esy-7d7e29d3/man:'
+export STARSHIP_SESSION_KEY='1085994160098014'
+export DYLD_LIBRARY_PATH='/opt/homebrew/lib'
+export _='/opt/homebrew/lib/node_modules/esy/3/i/esy-7d7e29d3/bin/esy'
+export __CFBundleIdentifier='com.googlecode.iterm2'
+export OPAM_SWITCH_PREFIX='/Users/kyle/.opam/default'
+export INFOPATH='/opt/homebrew/share/info:'
+export LANG='en_US.UTF-8'
+export ITERM_PROFILE='Hotkey Window'
+export HOMEBREW_PREFIX='/opt/homebrew'
+export COLORFGBG='15;0'
+export FZF_DEFAULT_COMMAND='ag -g '''''
+export HOME='/Users/kyle'
+export USE_PSEUDOLOCALIZATION='false'
+export OCAML_TOPLEVEL_PATH='/Users/kyle/.opam/default/lib/toplevel'
+export SECURITYSESSIONID='186a5'
+export COMMAND_MODE='unix2003'
+export NIX_SSL_CERT_FILE='/Users/kyle/.nix-profile/etc/ssl/certs/ca-bundle.crt'
+export EDITOR='vim'
+export COLORTERM='truecolor'
+export NeovideMultiGrid='true'
+export LC_TERMINAL_VERSION='3.4.14'
+export GPG_TTY='/dev/ttys003'
+export __CF_USER_TEXT_ENCODING='0x0:0:0'
+export NODENV_SHELL='fish'
+export HOMEBREW_SHELLENV_PREFIX='/opt/homebrew'
+export TERM_PROGRAM_VERSION='3.4.14'
+export SHELL='/opt/homebrew/bin/fish'
+export ITERM_SESSION_ID='w0t0p0:09080F6B-3726-4C79-BFA5-331DA6D8D925'
+export NIX_PATH='/Users/kyle/.nix-defexpr/channels'
+export MANPATH='/opt/homebrew/share/man:'
+export LSCOLORS='bxfxcxdxbxegedabagacad'
+export PWD='/Users/kyle/workspace/advent-of-code/03/kh_part2'
+export SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS='/Users/kyle/Library/WebKit/Databases'
+export GOPATH='/Users/kyle/go'
+export RUBY_CFLAGS='-DUSE_FFI_CLOSURE_ALLOC'
+export SSH_AUTH_SOCK='/private/tmp/com.apple.launchd.1B7ITczEXI/Listeners'
+export TERM_PROGRAM='iTerm.app'
+export TERM_SESSION_ID='w0t0p0:09080F6B-3726-4C79-BFA5-331DA6D8D925'
+export LaunchInstanceID='297D758B-1918-4790-AF89-CC802709A3CB'
+export TERM='xterm-256color'
+export TMPDIR='/var/folders/1s/sb8m53q97b3fmp_hsj1v95r80000gn/T/'
+export XPC_SERVICE_NAME='0'
+export HOMEBREW_REPOSITORY='/opt/homebrew'
+export SHELL='/opt/homebrew/bin/fish'
+export PATH="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/bin:$PATH"
+export cur__etc="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/etc"
+export cur__share="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/share"
+export cur__toplevel="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/toplevel"
+export cur__stublibs="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/stublibs"
+export cur__doc="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/doc"
+export cur__man="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/man"
+export cur__lib="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/lib"
+export cur__sbin="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/sbin"
+export cur__bin="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/bin"
+export cur__install="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9"
+export cur__target_dir="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/b/part2-507210c9"
+export cur__original_root="/Users/kyle/workspace/advent-of-code/03/kh_part2"
+export cur__root="/Users/kyle/workspace/advent-of-code/03/kh_part2"
+export cur__dev="true"
+export cur__version="link-dev:./package.json"
+export cur__name="part2"
+
+#
+# ocaml@4.10.2000@d41d8cd9
+#
+export CAML_LD_LIBRARY_PATH="/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/lib/ocaml/stublibs:/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/lib/ocaml:$CAML_LD_LIBRARY_PATH"
+export OCAMLLIB="/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/lib/ocaml"
+export OCAML_TOPLEVEL_PATH="/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/lib/ocaml"
+export OCAMLPATH="/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/lib:$OCAMLPATH"
+export MAN_PATH="/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/man:$MAN_PATH"
+export PATH="/Users/kyle/.esy/3___________________________________________________________________/i/ocaml-4.10.2000-3731c808/bin:$PATH"
+
+#
+# Built-in
+#
+export OCAMLFIND_LDCONF="ignore"
+export OCAMLFIND_DESTDIR="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/i/part2-507210c9/lib"
+export DUNE_BUILD_DIR="/Users/kyle/workspace/advent-of-code/03/kh_part2/_esy/default/store/b/part2-507210c9"
+export DUNE_STORE_ORIG_SOURCE_DIR="true"
+export SHELL="env -i /bin/bash --norc --noprofile"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export SHELL="/opt/homebrew/bin/fish"
+exec "$@"

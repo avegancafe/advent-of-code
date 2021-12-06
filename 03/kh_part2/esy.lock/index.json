@@ -1,0 +1,33 @@
+{
+  "checksum": "03cc71dfab5a7b4cfd41d9fbf3ddc8c5",
+  "root": "part2@link-dev:./package.json",
+  "node": {
+    "part2@link-dev:./package.json": {
+      "id": "part2@link-dev:./package.json",
+      "name": "part2",
+      "version": "link-dev:./package.json",
+      "source": {
+        "type": "link-dev",
+        "path": ".",
+        "manifest": "package.json"
+      },
+      "overrides": [],
+      "dependencies": [ "ocaml@4.10.2000@d41d8cd9" ],
+      "devDependencies": []
+    },
+    "ocaml@4.10.2000@d41d8cd9": {
+      "id": "ocaml@4.10.2000@d41d8cd9",
+      "name": "ocaml",
+      "version": "4.10.2000",
+      "source": {
+        "type": "install",
+        "source": [
+          "archive:https://registry.npmjs.org/ocaml/-/ocaml-4.10.2000.tgz#sha1:9e9a6305340fdcac2b105f26f20de4255686edc0"
+        ]
+      },
+      "overrides": [],
+      "dependencies": [],
+      "devDependencies": []
+    }
+  }
+}
