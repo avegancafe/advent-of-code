@@ -1,4 +1,0 @@
-(executable
- (name part2)
- (public_name part2)
- (libraries console.lib))
